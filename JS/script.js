@@ -380,15 +380,15 @@
 // console.log(result);
 
 
-let products = [
-    { name: "Pen", price: 200 },
-    { name: "Book", price: 100 },
-    { name: "Laptop", price: 45000 },
-    { name: "Bag", price: 500 }
-];
+// let products = [
+//     { name: "Pen", price: 200 },
+//     { name: "Book", price: 100 },
+//     { name: "Laptop", price: 45000 },
+//     { name: "Bag", price: 500 }
+// ];
 
-let result = products.sort((a,b) =>{
-   return b.price - a.price;
-});
+// let result = products.sort((a,b) =>{
+//    return b.price - a.price;
+// });
 
-console.log(result);
+// console.log(result);
