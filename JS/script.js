@@ -392,3 +392,14 @@
 // });
 
 // console.log(result);
+let products = [
+    { name: "Pen", price: 200 },
+    { name: "Book", price: 100 },
+    { name: "Laptop", price: 45000 },
+    { name: "Bag", price: 500 }
+];
+
+let result = products.sort((a , b) =>{
+    return a.price - b.price;
+});
+console.log(result);
