@@ -424,20 +424,39 @@
 // console.log(result);
 
 
+// let products = [
+//     { name: "Pen", price: 200 },
+//     { name: "Book", price: 100 },
+//     { name: "Laptop", price: 45000 },
+//     { name: "Bag", price: 500 }
+// ];
+
+
+// let result = products.filter((item) =>{
+//     return item.price > 100;
+// })
+
+// .sort((a ,b) =>{
+//     return b.name.localeCompare(a.name);
+// });
+
+// console.log(result);
+
 let products = [
     { name: "Pen", price: 200 },
     { name: "Book", price: 100 },
     { name: "Laptop", price: 45000 },
-    { name: "Bag", price: 500 }
+    { name: "Bag", price: 500 },
+    { name: "Mobile", price: 20000 }
 ];
 
+let result = products.filter((item) => item.price > 500 )
 
-let result = products.filter((item) =>{
-    return item.price > 100;
-})
+.sort((a,b) => a.price - b.price)
 
-.sort((a ,b) =>{
-    return b.name.localeCompare(a.name);
+.map((item) =>{
+   return item.name.toUpperCase() ;
+     
 });
-
 console.log(result);
+
