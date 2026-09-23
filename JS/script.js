@@ -442,21 +442,131 @@
 
 // console.log(result);
 
-let products = [
-    { name: "Pen", price: 200 },
-    { name: "Book", price: 100 },
-    { name: "Laptop", price: 45000 },
-    { name: "Bag", price: 500 },
-    { name: "Mobile", price: 20000 }
-];
+// let products = [
+//     { name: "Pen", price: 200 },
+//     { name: "Book", price: 100 },
+//     { name: "Laptop", price: 45000 },
+//     { name: "Bag", price: 500 },
+//     { name: "Mobile", price: 20000 }
+// ];
 
-let result = products.filter((item) => item.price > 500 )
+// let result = products.filter((item) => item.price > 500 )
 
-.sort((a,b) => a.price - b.price)
+// .sort((a,b) => a.price - b.price)
 
-.map((item) =>{
-   return item.name.toUpperCase() ;
+// .map((item) =>{
+//    return item.name.toUpperCase() ;
      
-});
+// });
+// console.log(result);
+
+// let products = [
+//     { name: "Pen", price: 20 },
+//     { name: "Book", price: 100 },
+//     { name: "Laptop", price: 45000 },
+//     { name: "Bag", price: 500 }
+// ];
+
+// let result = products.every((item) =>{
+//     return item.price > 10;
+// });
+
+// console.log(result);
+
+
+// let products = [
+//     { name: "Pen", price: 20 },
+//     { name: "Book", price: 100 },
+//     { name: "Laptop", price: 45000 },
+//     { name: "Bag", price: 500 }
+// ];
+
+// let result = products.some((item) =>{
+//     return item.price > 1000;
+// });
+
+// console.log(result);
+
+// let products = [
+//     { name: "Pen", price: 20 },
+//     { name: "Book", price: 100 },
+//     { name: "Laptop", price: 45000 },
+//     { name: "Bag", price: 500 }
+// ];
+
+
+// let result =products.filter((item)=>{
+//     return item.price >= 100;
+
+// });
+// console.log(result);
+
+// let numbers = [10, 20, 10, 30, 20, 40];
+
+// let result =[...new Set(numbers)];
+
+// console.log(result);
+
+// let fruits1 = ["Apple", "Mango"];
+
+// let fruits2 = ["Banana", "Orange"];
+
+// let result = [...fruits1,...fruits2];
+// console.log(result);
+
+// let fruits = ["Apple", "Mango"];
+
+// let result = [...fruits,"Banana", "Orange"]
+
+// console.log(result);
+
+// let fruits = ["Apple", "Mango", "Banana"];
+
+// let result =[...fruits];
+// console.log(result);
+
+// let numbers = [5, 10, 5, 20, 10, 30, 20];
+
+// let newArry = [...new Set(numbers)];
+
+// console.log(newArry);
+
+// let user = {
+//     name: "Akash",
+//     age: 24
+// };
+
+// let result = {
+//     ...user,
+//       city: "Bogura"
+    
+// };
+
+// console.log(result);
+
+// let user = {
+//     name: "Akash",
+//     age: 24,
+//     city: "Bogura"
+// };
+
+// let result = {
+//     ...user,
+//     age : 25
+// };
+// console.log(result);
+
+let user = {
+    name: "Akash",
+    age: 24,
+    city: "Bogura"
+};
+
+let result ={
+    ...user,
+    profession : "Full Stack Developer",
+
+    age: 25
+};
 console.log(result);
 
