@@ -556,17 +556,58 @@
 // };
 // console.log(result);
 
-let user = {
-    name: "Akash",
-    age: 24,
-    city: "Bogura"
+// let user = {
+//     name: "Akash",
+//     age: 24,
+//     city: "Bogura"
+// };
+
+// let result ={
+//     ...user,
+//     profession : "Full Stack Developer",
+
+//     age: 25
+// };
+// console.log(result);
+
+// function myFruits (...item){
+//      console.log(item);
+     
+// };
+
+// myFruits("Apple", "Mango", "Orange");
+
+// function total (...number){
+
+//   let result = number.reduce((total,item)=>{
+//       return item + total;
+//     },0);
+//     console.log(result);
+    
+// };
+// total(10, 20, 30, 40);
+
+// function multiply (...number){
+//   let result = number.reduce((total,item) =>{
+//       return total * item;
+//   },1);
+//   console.log(result);
+  
+// };
+
+// multiply(5, 2, 3);
+
+function getSmall (...number){
+   let result = number.reduce((total,item) =>{
+       if(item < 10 ){
+        return [...total,item] ;
+       }else{
+        return total;
+       };
+       
+   },[])
+
+   console.log(result);
+   
 };
-
-let result ={
-    ...user,
-    profession : "Full Stack Developer",
-
-    age: 25
-};
-console.log(result);
-
+getSmall(5, 15, 8, 25, 3, 30);
