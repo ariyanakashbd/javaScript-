@@ -597,17 +597,24 @@
 
 // multiply(5, 2, 3);
 
-function getSmall (...number){
-   let result = number.reduce((total,item) =>{
-       if(item < 10 ){
-        return [...total,item] ;
-       }else{
-        return total;
-       };
+// function getSmall (...number){
+//    let result = number.reduce((total,item) =>{
+//        if(item < 10 ){
+//         return [...total,item] ;
+//        }else{
+//         return total;
+//        };
        
-   },[])
+//    },[])
 
-   console.log(result);
+//    console.log(result);
    
-};
-getSmall(5, 15, 8, 25, 3, 30);
+// };
+// getSmall(5, 15, 8, 25, 3, 30);
+
+let info = ["Akash", "JavaScript", "React", "Node.js"];
+
+ let [fast, ...skills] = info;
+
+console.log(fast);
+console.log(skills);
