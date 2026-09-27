@@ -612,9 +612,65 @@
 // };
 // getSmall(5, 15, 8, 25, 3, 30);
 
-let info = ["Akash", "JavaScript", "React", "Node.js"];
+// let info = ["Akash", "JavaScript", "React", "Node.js"];
 
- let [fast, ...skills] = info;
+//  let [fast, ...skills] = info;
 
-console.log(fast);
-console.log(skills);
+// console.log(fast);
+// console.log(skills);
+
+// let user = {
+//     name: "Akash",
+//     age: 24,
+//     city: "Chittagong"
+// };
+
+// console.log(user.city??'Dhaka');
+// let user = {
+//     name: "Akash",
+//     age: 24
+// };
+
+ 
+
+// console.log(user.city??"Dhaka")
+
+// let user = {
+//     name: "Akash",
+//     age: 24,
+//     city: null
+// };
+
+// console.log(user.city??"Dhaka");
+
+
+// let user = {
+//     name: "Akash",
+//     age: 24,
+//     city: ""
+// };
+
+// console.log(user.city?? 'Dhaka');
+// console.log(user.city ||'Dhaka');
+// let product = {
+//     price: false
+// };
+
+// console.log(product.price ?? "Available");
+// console.log(product.price || "Available");
+
+// let user = {
+//     name: "Akash"
+// };
+// console.log(user.address?.city ?? "Dhaka");
+
+// 
+
+let user = {
+    name: "Akash",
+    address: {
+        city: "Chittagong"
+    }
+};
+
+console.log(user.address ?.city ?? "Dhaka");
