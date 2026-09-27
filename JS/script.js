@@ -666,11 +666,21 @@
 
 // 
 
-let user = {
-    name: "Akash",
-    address: {
-        city: "Chittagong"
-    }
-};
+// let user = {
+//     name: "Akash",
+//     address: {
+//         city: "Chittagong"
+//     }
+// };
 
-console.log(user.address ?.city ?? "Dhaka");
+// console.log(user.address ?.city ?? "Dhaka");
+// let user = {
+//     name: "",
+//     age: null
+// };
+
+// console.log(user.name ||= 'Akash');
+// console.log(user.age ??= 24);
+
+
+
