@@ -682,5 +682,118 @@
 // console.log(user.name ||= 'Akash');
 // console.log(user.age ??= 24);
 
+// let product = {
+//     name: "Laptop",
+//     brand: "HP",
+//     price: 45000,
+//     category: "Electronics"
+// };
 
+// let key = 'price';
+
+// console.log(product[key]);
+
+// let student = {
+//     name: "Ariyan",
+//     age: 24,
+//     profession: "Full Stack Developer",
+//     city: "Dhaka"
+// };
+
+// let key = "profession";
+
+// console.log(student[key]);
+
+// let product = {
+//     name: "Laptop",
+//     brand: "HP",
+//     price: 45000,
+//     stock: 10
+// };
+
+
+// let key = 'price'
+//  product[key] = 50000;
+
+// console.log(product[key]);
+ 
+// let user = {
+//     name: "Ariyan",
+//     age: 24,
+//     city: "Dhaka"
+// };
+
+// let key = "city";
+
+// user[key]='Chittagong';
+// console.log(user[key]);
+
+// let user = {
+//     name: "Ariyan",
+//     age: 24
+// };
+
+// let key = "city";
+
+// user[key] = "chittagang"
+// console.log(user[key]);
+
+// let product = {
+//     name: "Laptop",
+//     price: 45000,
+//     stock: 10
+// };
+
+// let key = "brand";
+
+// product[key] = 'HP';
+
+// console.log(product[key]);
+
+// let user = {
+//     name: "Ariyan",
+//     age: 24,
+//     city: "Dhaka"
+// };
+
+// let key1 = "name";
+// let key2 = "age";
+// let key3 = "city";
+
+// user[key1] = 'akash',
+// user[key2] = 25,
+// user[key3] = 'Bogura';
+
+// console.log(user[key1]);
+// console.log(user[key2]);
+// console.log(user[key3]);
+
+// let product = {
+//     name: "Laptop",
+//     price: 45000,
+//     brand: "HP"
+// };
+
+// let key1 = "name";
+// let key2 = "price";
+// let key3 = "brand";
+
+// product[key1] = 'MacBook',
+// product[key2] = 120000,
+// product[key3] = 'Apple';
+
+// console.log(product[key1]);
+// console.log(product[key2]);
+// console.log(product[key3]);
+
+// let user = {
+//     name: "Ariyan",
+//     age: 24,
+//     city: "Dhaka"
+// };
+
+// let key = "country";
+
+// user[key] = 'Bnagladesh';
+// console.log(user[key]);
 
