@@ -4,7 +4,6 @@
 //   { name: "Bag", price: 500 }
 // ];
 
-
 // let tottal = products.reduce((tottal,number ) =>{
 //     if (tottal.max < number.price){
 //        tottal.max = number.price
@@ -792,8 +791,173 @@
 //     city: "Dhaka"
 // };
 
-// let key = "country";
+// let key = type: srting "country";
 
 // user[key] = 'Bnagladesh';
 // console.log(user[key]);
 
+// let product = {
+//     name: "Laptop",
+//     price: 45000,
+//     brand: "HP"
+// };
+
+// let key1 = "name";
+// let key2 = "price";
+// let key3 = "brand";
+
+// product[key1] = "MacBook";
+// product[key2] = 80000;
+// product[key3] = "Apple";
+
+// console.log(product[key1]);
+// console.log(product[key2]);
+// console.log(product[key3]);
+// let user = {
+//     name: "Ariyan",
+//     age: 24,
+//     city: "Dhaka"
+// };
+
+// let key = "country";
+
+// user[key] = "Bangladesh";
+
+// console.log(user);
+
+// let student = {
+//     name: "Ariyan",
+//     age: 24,
+//     city: "Dhaka"
+// };
+
+// let key = "city";
+
+// student[key] = "Chattogram";
+
+// console.log(student[key]);
+
+// let product = {
+//     name: "Laptop",
+//     price: 45000,
+//     brand: "HP"
+// };
+
+// let key = "price";
+
+// product[key] = 50000;
+
+// console.log(product[key]);
+
+// let user = {
+//     name: "Ariyan",
+//     age: 24
+// };
+
+// let keyOne = "city";
+// let keyTwo = "profession";
+
+// user[keyOne] = "Dhaka";
+// user[keyTwo] = "Full Stack Developer";
+
+// console.log(user[keyOne]);
+// console.log(user[keyTwo]);
+
+// let product = {
+//     name: "Laptop",
+//     price: 45000,
+//     brand: "HP"
+// };
+
+// let key = "name";
+// let newValue = "MacBook";
+
+// product[key] = newValue;
+// console.log(product[key]);
+
+// let user = {
+//     name: "Ariyan",
+//     age: 24,
+//     city: "Dhaka"
+// };
+
+// let key1 = "name";
+// let value1 = "Ariyan Akash";
+
+// let key2 = "age";
+// let value2 = 25;
+
+// user[key1] = value1;
+// user[key2] = value2;
+
+// console.log(user[key1]);
+// console.log(user[key2]);
+// let product = {
+//     name: "Laptop",
+//     price: 45000,
+//     brand: "HP"
+// };
+
+// let key1 = "price";
+// let value1 = 50000;
+
+// let key2 = "stock";
+// let value2 = 10;
+
+// product[key1] = value1;
+// product[key2] = value2;
+
+// console.log(product[key1]);
+// console.log(product[key2]);
+
+// let customer = {
+//     name: "Ariyan",
+//     age: 24,
+//     city: "Dhaka"
+// };
+
+// let key1 = "city";
+// let value1 = "Chattogram";
+
+// let key2 = "profession";
+// let value2 = "Full Stack Developer";
+
+// let key3 = "country";
+// let value3 = "Bangladesh";
+
+// customer[key1] = value1;
+// customer[key2] = value2;
+// customer[key3] = value3;
+
+// console.log(customer[key1]);
+// console.log(customer[key2]);
+// console.log(customer[key3]);
+
+// let phone = {
+//     name: "iPhone",
+//     price: 80000,
+//     brand: "Apple"
+// };
+
+// let key1 = "price";
+// let value1 = 90000;
+
+// let key2 = "color";
+// let value2 = "Black";
+
+// let key3 = "storage";
+// let value3 = "256GB";
+
+// phone[key1] = value1;
+// phone[key2] = value2;
+// phone[key3] = value3;
+
+// console.log(phone[key1]);
+// console.log(phone[key2]);
+// console.log(phone[key3]);
+
+function welcome(){
+   console.log("Welcome to javaScript");
+   
+};
+welcome()
